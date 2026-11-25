@@ -105,3 +105,71 @@
     }
 }
 
+
+
+.publication-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+.publication-list li {
+    padding: 15px 12px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #D0C9E8;
+    line-height: 1.6;
+}
+
+.publication-list li:last-child {
+    border-bottom: none;
+}
+
+.publication-number {
+    display: inline-block;
+    min-width: 27px;
+    text-align: center;
+    background-color: #D5CFF3;
+    color: #35466A;
+    font-weight: bold;
+    font-size: 0.85em;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.publication-title {
+    font-weight: bold;
+    font-style: italic;
+    color: #303044;
+}
+
+.publication-details {
+    display: block;
+    margin-left: 43px;
+    margin-top: 3px;
+    color: #555;
+    font-size: 0.94em;
+}
+
+.publication-links {
+    display: block;
+    margin-left: 43px;
+    margin-top: 4px;
+    font-size: 0.9em;
+}
+
+.publication-links a {
+    color: #23558C;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.publication-links a:hover {
+    text-decoration: underline;
+}
+
+.publication-status {
+    color: #37633B;
+    font-weight: bold;
+}
+
